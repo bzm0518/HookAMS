@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--代理Activity-->
+        <activity android:name="com.bzm.hook.StubActivity" />
     </application>
 
 </manifest>
